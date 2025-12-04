@@ -1,0 +1,177 @@
+﻿<Window x:Class="Test_With_Radiobuttons___Combobox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test_With_Radiobuttons___Combobox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ScrollViewer PanningDeceleration="0.01">
+            <StackPanel>
+                <StackPanel>
+                    <Label Content="Что вы знаете об истории автомобилестроения?" FontSize="25" HorizontalAlignment="Center"/>
+                    <Label Content ="1) Кто в 1885 году сконструировал первый в мире автомобиль на бензиновом двигателе?" FontSize="18" />
+                    <RadioButton x:Name="q_1_1_W" Content="Вильгель Майбах" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_1_2_C" Content="Карл Бенц" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_1_3_W" Content="Готлиб Даймлер" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_1_4_W" Content="Генри Форд" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                </StackPanel>
+
+                <StackPanel>
+                    <Label Content ="2) Конструкторское нововведение, которым прославился Луи Рено?" FontSize="18" />
+                    <RadioButton x:Name="q_2_1_W" Content="Четырёхколёсный автомобиль" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_2_2_W" Content="Рессоры" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_2_3_C" Content="Карданный вал и трёхступенчатая КПП" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_2_4_W" Content="Прерыватель зажигания" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                </StackPanel>
+
+                <StackPanel>
+                    <Label>
+                        <TextBlock>
+                    <Run Text="3) Как именовали автомобили Rolls-Royce 40/50HP," FontSize="18"/>
+                    <LineBreak/>
+                    <Run Text=" выпускавшиеся на протяжении почти 20 лет в начале XX века?" FontSize="18"/>
+                        </TextBlock>
+                    </Label>
+                    <RadioButton x:Name="q_3_1_W" Content="Чёрный тюльпан" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_3_2_C" Content="Серебрянный призрак" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_3_3_W" Content="Гипперион" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_3_4_W" Content="Неистовый уроган" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                </StackPanel>
+
+                <StackPanel>
+                    <Label>
+                        <TextBlock>
+                    <Run Text="4) Какое устройство, используемое до сих пор," FontSize="18"/>
+                    <LineBreak/>
+                    <Run Text="было запатентовано в 1902 году Фредериком Ланчестером?" FontSize="18"/>
+                        </TextBlock>
+                    </Label>
+                    <RadioButton x:Name="q_4_1_W" Content="Обгонная муфта" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_4_2_W" Content="Дроссельная заслонка" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_4_3_W" Content="Свеча зажигания" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_4_4_C" Content="Дисковый тормоз" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                </StackPanel>
+
+                <StackPanel>
+                    <Label Content ="5) Автомобиль, победивший в номинации «Автомобиль века»?" FontSize="18" />
+                    <RadioButton x:Name="q_5_1_W" Content="Austin 7" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_5_2_W" Content="Mersedes 60" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_5_3_C" Content="Ford Model-T" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_5_4_W" Content="Bugatti Type 35" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                </StackPanel>
+
+                <StackPanel>
+                    <Label>
+                        <TextBlock>
+                    <Run Text="6) В какую эру автомобилестроения была изобретена" FontSize="18"/>
+                    <LineBreak/>
+                    <Run Text="первая автоматическая трансмиссия с двухступенчатой планетарной коробкой передач?" FontSize="18"/>
+                        </TextBlock>
+                    </Label>
+                    <RadioButton x:Name="q_6_1_W" Content="Бронзовая эра (1905-1914)" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_6_2_C" Content="Винтажная эра (1919-1929)" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_6_3_W" Content="Довоенная эра (1930-1948)" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_6_4_W" Content="Послевоенная эра (1949-1966)" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                </StackPanel>
+
+                <StackPanel>
+                    <Label Content ="7) В каком году был произведён первый советский автомобиль АМО-Ф15?" FontSize="18" />
+                    <RadioButton x:Name="q_7_1_W" Content="1921" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_7_2_W" Content="1922" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_7_3_W" Content="1923" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_7_4_C" Content="1924" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                </StackPanel>
+
+                <StackPanel>
+                    <Label Content ="8) Страна, впервые узаконившая использование ремней безопасности?" FontSize="18" />
+                    <RadioButton x:Name="q_8_1_W" Content="Германия" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_8_2_W" Content="Австралия" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_8_3_C" Content="Швеция" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_8_4_W" Content="США" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                </StackPanel>
+
+                <StackPanel>
+                    <Label Content ="9) Первый серийный легковой автомобиль, оснащённый турбонаддувом, это...?" FontSize="18" />
+                    <RadioButton x:Name="q_9_1_C" Content="Oldsmobile JetFire" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_9_2_W" Content="Porsche 930" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_9_3_W" Content="Buick Regal" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_9_4_W" Content="Mersedes-Benz 300 SD" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                </StackPanel>
+
+                <StackPanel>
+                    <Label>
+                        <TextBlock>
+                    <Run Text="10) Самой продаваемой моделью автомобиля за" FontSize="18"/>
+                    <LineBreak/>
+                    <Run Text="всю историю мирового автомобилестроения является..." FontSize="18"/>
+                        </TextBlock>
+                    </Label>
+                    <RadioButton x:Name="q_10_1_W" Content="Ford Escort" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_10_2_W" Content="Volkwagen Golf" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_10_3_C" Content="Toyota Corolla" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                    <RadioButton x:Name="q_10_4_W" Content="Opel Corsa" Margin="20,5,0,5" FontSize="15" VerticalContentAlignment="Center" />
+                </StackPanel>
+
+                <StackPanel>
+                    <Label Content ="11) На каком автомобиле впервые появились электрические стеклоподъёмники? " FontSize="18" />
+                    <ComboBox x:Name="q_11" SelectedIndex="0">
+                        <ComboBoxItem>Cadillac Eldorado 1959</ComboBoxItem>
+                        <ComboBoxItem>Porsche 930</ComboBoxItem>
+                        <ComboBoxItem>Lincoln Continental Mark II</ComboBoxItem>
+                        <ComboBoxItem>Mersedes W60"</ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+
+                <StackPanel>
+                    <Label Content ="12) Какая компания первой начала серийный выпуск автомобилей с бензиновым двигателем?" FontSize="18" />
+                    <ComboBox x:Name="q_12" SelectedIndex="0">
+                        <ComboBoxItem>Benz and Cie</ComboBoxItem>
+                        <ComboBoxItem>Ford Motor Company</ComboBoxItem>
+                        <ComboBoxItem>Daimler-Motoren-Gesellschaft</ComboBoxItem>
+                        <ComboBoxItem>Panhard et Levassor"</ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+
+                <StackPanel>
+                    <Label Content ="13) Какой массовый автомобиль первым получил монококовый (несущий) кузов?" FontSize="18" />
+                    <ComboBox x:Name="q_13" SelectedIndex="0">
+                        <ComboBoxItem>Ford Model T</ComboBoxItem>
+                        <ComboBoxItem>Citroën Traction Avant</ComboBoxItem>
+                        <ComboBoxItem>Volkswagen Beetle</ComboBoxItem>
+                        <ComboBoxItem>Mini"</ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+
+                <StackPanel>
+                    <Label Content ="14) Что впервые в массовом автомобиле применила компания Oldsmobile в 1940 году? " FontSize="18" />
+                    <ComboBox x:Name="q_14" SelectedIndex="0">
+                        <ComboBoxItem>Гидроусилитель руля</ComboBoxItem>
+                        <ComboBoxItem>Кондиционер</ComboBoxItem>
+                        <ComboBoxItem>Автоматическую коробку передач</ComboBoxItem>
+                        <ComboBoxItem>Электрические стеклоподъёмники"</ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+
+                <StackPanel>
+                    <Label Content ="15) Какой автомобиль считается первым в мире хетчбэком? " FontSize="18" />
+                    <ComboBox x:Name="q_15" SelectedIndex="0">
+                        <ComboBoxItem>Renault 4CV</ComboBoxItem>
+                        <ComboBoxItem>Fiat 600 Multipla</ComboBoxItem>
+                        <ComboBoxItem>Citroën 2CV</ComboBoxItem>
+                        <ComboBoxItem>Renault 4"</ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+                    <Button x:Name="Проверить" Content="Проверить" HorizontalAlignment="Left" Margin="10,10,1,1" VerticalAlignment="Top"  Height="50" Width="131" Click="Check_test"/>
+                    <Button x:Name="Начать_заново" Content="Начать заново" HorizontalAlignment="Left" Margin="10,10,1,1" VerticalAlignment="Top"  Height="50" Width="131" Click="Start_again"/>
+                    <Label Content="Ваш результат:" FontSize="18" HorizontalAlignment="Left" HorizontalContentAlignment="Left" Margin="200,10,10,10" VerticalAlignment="Top" VerticalContentAlignment="Center" Height="56" Width="131"/>
+                    <TextBox x:Name="Counter" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="5,10,10,0" TextWrapping="Wrap"  VerticalAlignment="Top" VerticalContentAlignment="Center" Width="70" Height="50" IsEnabled="False"/>
+                </StackPanel>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
